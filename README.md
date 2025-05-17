@@ -30,7 +30,8 @@ To get started with the Vehicle Management CLI, follow these steps:
 
 Clone the repository:
 
-git clone https://github.com/usamabadarr/08Tsoop-VB.git
+https://github.com/reesevan/Module-08-Challenge
+
 Install inquirer:
 
 Ensure you have Node.js installed. Then open integrated terminal and run:
@@ -40,6 +41,7 @@ To start the CLI application, run the following command:
 
  npm run start
 Available Actions
+
 Print Details: Display detailed information about the selected vehicle. Start Vehicle: Start the selected vehicle. Accelerate 5 MPH: Increase the speed of the selected vehicle by 5 MPH. Decelerate 5 MPH: Decrease the speed of the selected vehicle by 5 MPH. Stop Vehicle: Stop the selected vehicle. Turn Right: Turn the selected vehicle right. Turn Left: Turn the selected vehicle left. Reverse: Reverse the selected vehicle. Tow a Vehicle: Only available for trucks to tow other vehicles. Perform a Wheelie: Only available for motorbikes. Select or Create Another Vehicle: Go back to the main menu to select or create another vehicle. Exit: Exit the CLI application. After going through the creation or selection process, the user is able to perform certain actions with the selected vehicle. The user is returned to the actions menu after each action until they decide to exit the application.
 
 License
